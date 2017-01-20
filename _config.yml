@@ -1,0 +1,57 @@
+# Site settings
+name: SiteAzure View
+version: 1.0
+email: zenkin@163.com
+author: Dtop
+url: http://www.powereasy.net
+resume_site: http://dtop.powereasy.net/
+github: https://github.com/SiteAzure/SiteAzure
+baseurl: ""
+description: Actually, SiteAzure 为网站群集约化而生！
+meta_description: SiteAzure View 视图文档，Actually, SiteAzure 为网站群集约化而生！
+
+#permalink: /:categories/:year/:month/:day/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /:title/
+#paginate: 10 
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: luoyan35714
+highlighter: rouge
+
+# gems: [jekyll-paginate] 
+
+# Build settings
+markdown: kramdown
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
+
+
+#kramdown:
+ # input: GFM
+ # syntax_highlighter: rouge
+ # extensions:
+ #   - autolink
+ #   - footnotes
+ #   - smart
+
+
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : luoyan35714
+    disqus :
+        short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light

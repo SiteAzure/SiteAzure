@@ -1,0 +1,16 @@
+<div class="docs-header" id="content">
+  <div class="container">
+  	{% if page.title %}
+
+		    <h1>{{ page.title }}</h1>
+	    <p>{{ page.description }}</p>
+    {% else %}
+	    <h1>{{ site.name }}</h1>
+	    <p>{{ site.description }}</p>
+	    <p class="docs-version">
+			<span>version {{ site.version }}</span>
+			<span><a rel="nofollow" target="_blank" href="https://git.oschina.net/SiteAzure/SiteAzure.git">Git@OSC项目</a></span>
+			<span>By  {{ site.author }} </span></p>
+    {% endif %}
+  </div>
+</div>
